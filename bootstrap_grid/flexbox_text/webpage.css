@@ -1,0 +1,32 @@
+header, footer{
+    width: 100px;
+    background-color: antiquewhite;
+    min-height: 150px;
+}
+
+main{
+    display:flex;
+}
+
+section{
+    flex-grow: 1;
+    background-color: lightgray;
+}
+
+.leftpane{
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-height: 300px;
+}
+
+.rightpane{
+    flex-basis: 30%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-height: 300px;
+}
+
+section{
+    flex-grow: 1;
+}
